@@ -186,18 +186,20 @@ nav {
 }
 .product-info div p:nth-child(1) {
     font-weight: bold;
-    font-size: var(--md);
+    font-size: var(--lg);
     margin-top: 0px;
     margin-bottom: 16px;
 }
 .product-info div p:nth-child(2) {
-    font-size: var(--md);
+    font-size: var(--lg);
     margin-top: 16px;
     margin-bottom: 16px;
     color: var(--VeryLightPink);
 }
 
+/* shopping cart */
 .product-detail {
+    background-color: var(--White);
     width: 360px;
     padding: 24px;
     box-sizing: border-box;

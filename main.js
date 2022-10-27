@@ -62,6 +62,21 @@ productList.push({
     price: 230,
     image: "https://images.samsung.com/is/image/samsung/co-fhd-t5300-un43t5300akxzl-frontblack-237599479?$650_519_PNG$",
 });
+productList.push({
+    name: "Bike",
+    price: 120,
+    image: "https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+});
+productList.push({
+    name: "Laptop",
+    price: 340,
+    image: "https://www.lenovo.com/medias/lenovo-laptop-ideapad-gaming-3-gen-6-15-amd-subseries-hero.png?context=bWFzdGVyfHJvb3R8MTk5NTg0fGltYWdlL3BuZ3xoZmIvaGRiLzE0MTkwNDY2MzY3NTE4LnBuZ3xlMzY3ZDNhMWI3NGI3MjNjZDhkYjQzYWQ2ZjQ0MThiYjg0ZTlhYzUzYzM2MmNhMzVhZmJmOWJiNGE4OThmZTRi0",
+});
+productList.push({
+    name: "TV",
+    price: 230,
+    image: "https://images.samsung.com/is/image/samsung/co-fhd-t5300-un43t5300akxzl-frontblack-237599479?$650_519_PNG$",
+});
 
 function renderProducts(arr) {
     for (product of arr) {
@@ -99,5 +114,4 @@ function renderProducts(arr) {
         cardsContainer.appendChild(productCard);
     }
 }
-
 renderProducts(productList);
